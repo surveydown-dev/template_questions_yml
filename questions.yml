@@ -57,6 +57,20 @@ michael_jackson:
     Black or White (1991): black_or_white
     Bad (1987): bad
     Human Nature (1982): human_nature
+apple_image:
+  type: mc_image
+  label: Which apple variety looks most appealing?
+  options:
+    Fuji: fuji
+    Pink Lady: pink_lady
+    Honeycrisp: honeycrisp
+apple_buy:
+  type: mc_multiple_image
+  label: Which apples would you buy (select all that apply)?
+  options:
+    Fuji: fuji
+    Pink Lady: pink_lady
+    Honeycrisp: honeycrisp
 education:
   type: select
   label: What is the highest level of education you have attained?
@@ -142,4 +156,28 @@ car_preference_buy_ev:
     Disagree: disagree
     Neutral: neutral
     Agree: agree
+vehicle_features:
+  type: matrix_multiple
+  label: Which features matter to you for each vehicle type (select all that apply)?
+  options:
+    Affordable: affordable
+    Fast: fast
+    Eco-friendly: eco_friendly
+  row:
+    Gasoline car: gasoline
+    Electric car: ev
+vehicle_features_gasoline:
+  type: mc_multiple
+  label: []
+  options:
+    Affordable: affordable
+    Fast: fast
+    Eco-friendly: eco_friendly
+vehicle_features_ev:
+  type: mc_multiple
+  label: []
+  options:
+    Affordable: affordable
+    Fast: fast
+    Eco-friendly: eco_friendly
 
