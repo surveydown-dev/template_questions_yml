@@ -4,8 +4,6 @@ A template showcasing all built-in question types using a YAML file.
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_questions_yml@main/video-recording.mp4)
 
-*Click the image above to play the recording.*
-
 ### Template page
 
 https://surveydown.org/templates/questions_yml
